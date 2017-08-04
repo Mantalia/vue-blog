@@ -1,5 +1,5 @@
 <template>
-  <div class="index-container fadeInRight animated">
+  <div class="index-container fadeInLeft animated">
     首页
   </div>
 </template>
@@ -19,6 +19,5 @@ export default {
 	.index-container {
 	    height: 100%;
 	    background: #fff;
-	    opacity: 0;
 	  }
 </style>

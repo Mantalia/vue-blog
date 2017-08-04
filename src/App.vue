@@ -56,6 +56,7 @@ export default {
     left: 0;
     overflow-y: scroll;
     z-index: 1001;
+    background: whitesmoke;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
