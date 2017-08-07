@@ -15,6 +15,5 @@
 <style lang="scss">
 	.blog-container {
 		height: 100%;
-		background: #fff;
 	}
 </style>

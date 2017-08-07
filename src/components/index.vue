@@ -1,6 +1,13 @@
 <template>
   <div class="index-container fadeInLeft animated">
-    首页
+    <div class="block">
+    <span class="demonstration">默认</span>
+    <el-date-picker
+      v-model="value1"
+      type="date"
+      placeholder="选择日期">
+    </el-date-picker>
+  </div>
   </div>
 </template>
 
@@ -8,7 +15,7 @@
 export default {
   data() {
     return {
-      msg: 'Welcome to Your Vue.js Apps'
+      value1: ''
     }
   }
 }
@@ -18,6 +25,5 @@ export default {
 <style lang="scss">
 	.index-container {
 	    height: 100%;
-	    background: #fff;
 	  }
 </style>

@@ -6,9 +6,12 @@ import router from './router'
 import store from './store'
 import i18n from './language'
 import axios from './axios'
+import ElementUI from 'element-ui'
 
 // 去掉告警消息
 Vue.config.productionTip = false
+
+Vue.use(ElementUI)
 
 // 注册axios
 Vue.prototype.$axios = axios
