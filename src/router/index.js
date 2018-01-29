@@ -3,6 +3,7 @@ import Router from 'vue-router'
 
 import index from '@/components/index'
 import blog from '@/components/blog'
+import login from '@/components/login'
 
 Vue.use(Router)
 
@@ -19,8 +20,13 @@ export default new Router({
       component: blog
     },
     {
+      path: '/login',
+      name: 'login',
+      component: login
+    },
+    {
       path: '*',
-      redirect: '/index'
+      redirect: '/login'
     }
   ]
 })
